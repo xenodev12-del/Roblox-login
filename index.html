@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roblox - ログイン</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://www.roblox.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <img src="https://www.roblox.com/images/logo.png" alt="Roblox" class="logo">
+      <h1>Robloxにログイン</h1>
+      
+      <form id="loginForm">
+        <div class="input-group">
+          <label>ユーザー名またはメールアドレス</label>
+          <input type="text" id="username" placeholder="例: DevNyaNya" required>
+        </div>
+        
+        <div class="input-group">
+          <label>パスワード</label>
+          <input type="password" id="password" placeholder="パスワードを入力" required>
+        </div>
+
+        <button type="submit" class="login-btn">ログイン</button>
+      </form>
+
+      <p class="small">まだアカウントがない？ <a href="#">今すぐサインアップ</a></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
